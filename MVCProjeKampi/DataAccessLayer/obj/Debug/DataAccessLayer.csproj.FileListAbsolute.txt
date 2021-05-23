@@ -15,3 +15,4 @@ C:\Users\Hasret\source\repos\MVCProjeKampi\DataAccessLayer\obj\Debug\DataAccessL
 C:\Users\Hasret\source\repos\MVCProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
 C:\Users\Hasret\source\repos\MVCProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig1.resources
 C:\Users\Hasret\source\repos\MVCProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.GenerateResource.cache
+C:\Users\Hasret\source\repos\MVCProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_writer_edit.resources

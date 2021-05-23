@@ -1,0 +1,80 @@
+﻿@using EntityLayer.Concrete
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+<br />
+<h1>İstatistikler Tablosu</h1>
+<br />
+<div class="col-md-6">
+    <div class="info-box">
+
+        <span class="info-box-icon bg-gradient-yellow">
+            <i class="far fa-envelope"></i>
+        </span>
+
+        <div class="info-box-content">
+            <span class="info-box-text">Toplam Kategori Sayısı</span>
+            <span class="info-box-number">@ViewBag.result1</span>
+        </div>
+    </div>
+</div>
+
+<div class="col-md-6">
+    <div class="info-box">
+
+        <span class="info-box-icon bg-gradient-pink">
+            <i class="far fa-envelope"></i>
+        </span>
+
+        <div class="info-box-content">
+            <span class="info-box-text">Başlık Tablosunda "Kitap" Kategorisine Ait Başlık Sayısı</span>
+            <span class="info-box-number">@ViewBag.result2</span>
+        </div>
+    </div>
+</div>
+
+<div class="col-md-6">
+    <div class="info-box">
+
+        <span class="info-box-icon bg-gradient-purple">
+            <i class="far fa-envelope"></i>
+        </span>
+
+        <div class="info-box-content">
+            <span class="info-box-text">Yazar Adında 'a' Harfi Geçen Yazar Sayısı</span>
+            <span class="info-box-number">@ViewBag.result3</span>
+        </div>
+    </div>
+</div>
+
+<div class="col-md-6">
+    <div class="info-box">
+
+        <span class="info-box-icon bg-gradient-cyan">
+            <i class="far fa-envelope"></i>
+        </span>
+
+        <div class="info-box-content">
+            <span class="info-box-text">En Fazla Başlığa Sahip Kategori Adı</span>
+            <span class="info-box-number">@ViewBag.result4</span>
+        </div>
+    </div>
+</div>
+
+<div class="col-md-6">
+    <div class="info-box">
+
+        <span class="info-box-icon bg-gradient-olive">
+            <i class="far fa-envelope"></i>
+        </span>
+
+        <div class="info-box-content">
+            <span class="info-box-text">Kategori Tablosunda Durumu True Olan Kategoriler İle</span>
+            <a>False Olan Kategoriler Arasındaki Sayısal Fark</a>
+            <span class="info-box-number">@ViewBag.result5</span>
+        </div>
+    </div>
+</div>
+
+
